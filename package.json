@@ -1,0 +1,22 @@
+{
+  "name": "advice-generator-app-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch style.scss build/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elitese/AdviceGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elitese/AdviceGenerator/issues"
+  },
+  "homepage": "https://github.com/Elitese/AdviceGenerator#readme",
+  "dependencies": {
+    "sass": "^1.49.8"
+  }
+}
