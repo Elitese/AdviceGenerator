@@ -1,15 +1,80 @@
 body {
-  background-color: #323a49;
+  background-color: grey;
+  box-sizing: border-box;
 }
 
 .card {
-  background-color: #4e5d73;
+  position: relative;
+  background-color: #323a49;
   padding: 40px;
-  margin: 25% auto 0;
+  margin: 300px auto 0;
   width: auto;
-  width: 450px;
+  width: 470px;
   border-radius: 15px;
+  text-align: center;
   color: #cee3e9;
+  font-family: "Manrope";
+  font-weight: 800;
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: auto;
+    margin: 150px 0px;
+    padding: 40px 15px;
+  }
+}
+.card-id {
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  color: #52ffa8;
+  letter-spacing: 0.4em;
+  font-size: 14px;
+}
+.card-advice {
+  font-size: 28px;
+}
+@media screen and (max-width: 600px) {
+  .card-advice {
+    font-size: 18px;
+  }
+}
+.card-divider-mobile {
+  margin: 0 auto;
+  padding: 40px 0 30px 0;
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .card-divider-mobile {
+    display: block;
+  }
+}
+.card-divider-desktop {
+  margin: 0 auto;
+  padding: 40px 0 30px 0;
+  display: block;
+}
+@media screen and (max-width: 600px) {
+  .card-divider-desktop {
+    display: none;
+  }
+}
+.card-dice {
+  cursor: pointer;
+  background-color: #52ffa8;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -33px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.1s;
+}
+.card-dice:hover {
+  box-shadow: 0px 0px 30px 5px #52ffa8;
 }
 
 /*# sourceMappingURL=style.css.map */
