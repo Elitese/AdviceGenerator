@@ -73,8 +73,10 @@ body {
   transform: translateX(-50%);
   transition: all 0.1s;
 }
-.card-dice:hover {
-  box-shadow: 0px 0px 30px 5px #52ffa8;
+@media screen and (min-width: 600px) {
+  .card-dice:hover {
+    box-shadow: 0px 0px 30px 5px #52ffa8;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
